@@ -16,7 +16,7 @@ export default function Hero() {
 
           <div className="flex gap-4 pt-4">
             <button className="px-6 py-3 rounded-md bg-zinc-900 text-white text-sm font-medium hover:bg-zinc-700 transition cursor-pointer">
-              <a href="/create">Create company account</a>
+              <a href="/signup">Create company account</a>
             </button>
 
             <button className="px-6 py-3 cursor-pointer rounded-md border border-zinc-300 text-sm font-medium text-zinc-700 hover:border-zinc-400 transition">

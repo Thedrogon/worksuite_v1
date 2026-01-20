@@ -1,6 +1,6 @@
 //import React from "react";
 
-import { Link } from "react-router-dom";
+import Link from "next/link"
 
 const SignIn = () => {
   return (
@@ -70,7 +70,7 @@ const SignIn = () => {
         {/* Footer */}
         <p className="text-sm text-neutral-600 mt-6 text-center">
           New to WorkSuit?{" "}
-          <Link to="/signup" className="text-neutral-900 font-medium cursor-pointer hover:underline">
+          <Link href="/signup" className="text-neutral-900 font-medium cursor-pointer hover:underline">
             Create an account
           </Link>
         </p>

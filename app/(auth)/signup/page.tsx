@@ -1,6 +1,6 @@
 //import React from "react";
 
-import { Link } from "react-router-dom";
+import Link from "next/link"
 
 const SignUp = () => {
   return (
@@ -52,7 +52,7 @@ const SignUp = () => {
               className="w-full rounded-lg border border-neutral-300 px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-neutral-900 appearance-none text-neutral-500"
               required
             >
-              <option value="select designation type" disabled selected>  
+              <option value="select designation type" disabled defaultValue='true'>  
                 Select designation type
               </option>
               <option  value="someOption">Human Resource</option>
@@ -102,7 +102,7 @@ const SignUp = () => {
         <p className="text-sm text-neutral-600 mt-6 text-center">
           Already have an account?{" "}
           <Link
-            to="/signin"
+            href="/signin"
             className="text-neutral-900 font-medium cursor-pointer hover:underline"
           >
             Sign in
