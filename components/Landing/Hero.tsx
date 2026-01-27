@@ -11,7 +11,7 @@ export default function Hero() {
             <br />
             projects, and growth
             <br />
-            <span className="text-zinc-500">without the noise.</span>
+            <span className="text-red-400">without the noise.</span>
           </h1>
 
           <div className="flex gap-4 pt-4">
