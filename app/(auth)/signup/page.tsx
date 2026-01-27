@@ -1,4 +1,5 @@
 //import React from "react";
+'use client';
 
 import Link from "next/link"
 
@@ -52,7 +53,7 @@ const SignUp = () => {
               className="w-full rounded-lg border border-neutral-300 px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-neutral-900 appearance-none text-neutral-500"
               required
             >
-              <option value="select designation type" disabled defaultValue='true'>  
+              <option disabled defaultValue='select designation type'>  
                 Select designation type
               </option>
               <option  value="someOption">Human Resource</option>
